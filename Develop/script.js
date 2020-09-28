@@ -161,8 +161,23 @@ if (
   return;
 }
 
+//Creating JSON object to store user input
+var passwordChoices = {
+  length: length,
+  withLowerCharacters: withLowerCharacters,
+  withNumericalCharacters: withNumericalCharacters,
+  withUpperCharacters: withUpperCharacters,
+  withSpecialCharacters: withSpecialCharacters,
+};
 
+return passwordChoices;
+}
 
+//Function to get random element from the array
+function getRandom(arr) {
+  var randomIndex = Math.floor(Math.random() * arr.length);
+  var randomElement = arr[randomIndex];
+}
 
 
 

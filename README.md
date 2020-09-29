@@ -17,3 +17,6 @@ Project is created with:
 ## Setup
 This project runs in browser using JavaScript.
 
+# Credits
+
+Created by Eon Sinclair for The Soul Proprietor Inc. 2020

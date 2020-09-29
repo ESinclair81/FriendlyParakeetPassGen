@@ -10,6 +10,11 @@ body,
   height: 100%;
   margin: 0;
   padding: 0;
+<<<<<<< HEAD
+=======
+  background-color: blanchedalmond;
+  border: 20px;
+>>>>>>> develop
 }
 
 body {
@@ -28,6 +33,10 @@ header {
   padding: 20px;
   padding-top: 0px;
   color: hsl(206, 17%, 28%);
+<<<<<<< HEAD
+=======
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+>>>>>>> develop
 }
 
 .card {
@@ -48,6 +57,10 @@ header {
   width: 100%;
   background: #e7e9eb;
   height: 2px;
+<<<<<<< HEAD
+=======
+  color: purple;
+>>>>>>> develop
 }
 
 .card-body {
@@ -74,11 +87,19 @@ header {
 
 .btn {
   border: none;
+<<<<<<< HEAD
   background-color: hsl(360, 91%, 36%);
   border-radius: 25px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
     0px;
   color: hsl(0, 0%, 100%);
+=======
+  background-color: rgb(12, 196, 21);
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
+    0px;
+  color: hsl(325, 43%, 38%);
+>>>>>>> develop
   display: inline-block;
   font-size: 22px;
   line-height: 22px;
@@ -116,6 +137,10 @@ button[disabled] {
   border-radius: 6px;
   resize: none;
   overflow: hidden;
+<<<<<<< HEAD
+=======
+  color: purple;
+>>>>>>> develop
 }
 
 @media (max-width: 690px) {
@@ -127,6 +152,10 @@ button[disabled] {
 
   #password {
     font-size: 1rem;
+<<<<<<< HEAD
+=======
+    color: red;
+>>>>>>> develop
   }
 }
 

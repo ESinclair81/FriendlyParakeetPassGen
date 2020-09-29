@@ -171,12 +171,59 @@ var passwordChoices = {
 };
 
 return passwordChoices;
+
 }
 
 //Function to get random element from the array
 function getRandom(arr) {
   var randomIndex = Math.floor(Math.random() * arr.length);
   var randomElement = arr[randomIndex];
+
+  return randomElement;
+
+}
+
+//Function to generate the password 
+function generatePassword() {
+  var choices = getPasswordChoices();
+
+  //variable to store password as inputs are given
+  var result = [];
+
+  //Array for the types of characters possible in password
+  var possibleCharacters = [];
+
+  //Array to ensure on of each kind of character is used
+  var ensuredCharacters = [];
+
+  //Adding the array of lower case characters to the new array from the inputs
+  if (choices.withLowerCharacters) {
+    possibleCharacters = possibleCharacters.concat(lowercaseCharacters);
+    ensuredCharacters = push(getRandom(lowercaseCharacters));
+  
+  }
+//Adding the array of upper case characters to the new array from the inputs
+if (choices.withUpperCharacters) {
+  possibleCharacters = possibleCharacters.concat(uppercaseCharacters);
+  ensuredCharacters = push(getRandom(uppercaseCharacters));
+
+}
+  //Adding the array of special charcters to the new array from the inputs
+  if (choices.withSpecialCharacters) {
+    possibleCharacters = possibleCharacters.concat(specialCharacters);
+    ensuredCharacters = push(getRandom(specialCharacters));
+
+}
+
+//Adding the array of numerical characters to the new array from the inputs
+if (choices.withNumericalCharacters) {
+  possibleCharacters = possibleCharacters.concat(numberCharacters);
+  ensuredCharacters = push(getRandom(numberCharacters));
+
+}
+
+
+
 }
 
 

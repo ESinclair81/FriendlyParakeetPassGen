@@ -1,10 +1,5 @@
 // Assignment code here
 
-<<<<<<< HEAD
-
-// Get references to the #generate element
-var generateBtn = document.querySelector("#generate");
-=======
 //Array of lowercase character choices for password
 var lowercaseCharacters = [
   'a',
@@ -245,27 +240,15 @@ return result.join("");
 
 
 // Get references to the #generate element
-var generateBtn = document.querySelector('#generate');
->>>>>>> develop
+var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
 function writePassword() {
   var password = generatePassword();
-<<<<<<< HEAD
   var passwordText = document.querySelector("#password");
-
-  passwordText.value = password;
-
-}
-
-// Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
-=======
-  var passwordText = document.querySelector('#password');
 
   passwordText.value = password;
 }
 
 // Add event listener to generate button
 generateBtn.addEventListener('click', writePassword);
->>>>>>> develop
